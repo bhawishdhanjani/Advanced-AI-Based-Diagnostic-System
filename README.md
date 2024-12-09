@@ -1,19 +1,21 @@
-# Integrated HealthAI: Revolutionizing Healthcare Through Advanced Diagnostic Systems
+# Integrated HealthAI: Revolutionizing Healthcare through Advanced Diagnostic Systems
 
 ## Project Overview
-Integrated HealthAI combines multiple advanced diagnostic systems to provide cutting-edge healthcare solutions. The project includes:
 
-1. **HeartBeat-Detection-using-OpenCV** - A system for heartbeat detection using computer vision.
-2. **Skin Cancer** - A model for detecting skin cancer.
-3. **Frontend** - The user interface for interacting with these systems.
+Integrated HealthAI is a comprehensive system designed to revolutionize healthcare by providing advanced diagnostic capabilities through multiple components:
+
+1. **HeartBeat-Detection-using-OpenCV** - An application for detecting heartbeats using computer vision techniques.
+2. **Skin Cancer** - An application for diagnosing skin cancer using machine learning models.
+3. **Frontend** - The user-facing interface for interacting with the system.
 
 ---
 
 ## Prerequisites
 
 ### General Requirements:
-- **Python** (version 3.7 or above) and **pip** should be pre-installed for the backend.
+
 - **Node.js** and **npm** should be pre-installed for the frontend.
+- **Python** (version 3.7 or above) and **pip** should be pre-installed for the backend components.
 
 ---
 
@@ -21,79 +23,82 @@ Integrated HealthAI combines multiple advanced diagnostic systems to provide cut
 
 ### 1. HeartBeat-Detection-using-OpenCV
 
-The `HeartBeat-Detection-using-OpenCV` folder contains the code for heartbeat detection. To set up and run:
+The `HeartBeat-Detection-using-OpenCV` folder contains the application for heartbeat detection. To set it up:
 
 1. Navigate to the `HeartBeat-Detection-using-OpenCV` folder:
-    ```bash
-    cd HeartBeat-Detection-using-OpenCV
-    ```
+   ```bash
+   cd HeartBeat-Detection-using-OpenCV
+   ```
 2. Install the dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Start the server:
-    ```bash
-    uvicorn heartbeat:app --reload
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Start the application:
+   ```bash
+   uvicorn heartbeat:app --reload
+   ```
 
 ---
 
 ### 2. Skin Cancer
 
-The `Skin Cancer` folder contains the code for detecting skin cancer. To set up and run:
+The `Skin Cancer` folder contains the application for diagnosing skin cancer. To set it up:
 
 1. Navigate to the `Skin Cancer` folder:
-    ```bash
-    cd Skin_Cancer
-    ```
-2. Install the required Python libraries:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Start the backend server:
-    ```bash
-    python main.py
-    ```
+   ```bash
+   cd Skin Cancer
+   ```
+2. Install all dependencies (ensure `requirements.txt` is set up):
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Start the application:
+   ```bash
+   python main.py
+   ```
 
 ---
 
 ### 3. Frontend
 
-The `Frontend` folder contains the user interface code. To set up and run:
+The `frontend` folder contains the user-facing interface. To set it up:
 
-1. Navigate to the `Frontend` folder:
-    ```bash
-    cd Frontend
-    ```
+1. Navigate to the `frontend` folder:
+   ```bash
+   cd frontend
+   ```
 2. Install the dependencies:
-    ```bash
-    npm install
-    ```
-3. Start the development server:
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm install
+   ```
+3. Start the frontend development server:
+   ```bash
+   npm run dev
+   ```
 
 ---
 
 ## Running the Project
 
-1. Ensure all components (heartbeat detection, skin cancer model, and frontend) are set up.
-2. Start the HeartBeat-Detection-using-OpenCV and Skin Cancer servers as described above.
+1. Ensure all components are set up according to the instructions above.
+2. Start the backend services (`HeartBeat-Detection-using-OpenCV` and `Skin Cancer`).
 3. Start the frontend development server.
-4. Access the frontend through your browser to interact with the diagnostic systems.
+4. Access the system through the frontend interface to utilize the diagnostic applications.
 
 ---
 
 ## Notes
-- Ensure all environment variables required by the project are configured properly.
-- For troubleshooting, refer to the documentation or contact the development team.
+
+- Configure any required environment variables for each component.
+- Ensure that all dependencies are installed as specified in the respective `requirements.txt` or `package.json` files.
+- For additional help, consult the documentation or reach out to the development team.
 
 ---
 
 ## License
+
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Empowering healthcare with AI-driven diagnostics!
+Transforming healthcare, one diagnostic at a time.
